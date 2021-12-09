@@ -19,7 +19,7 @@ type Query {
     "Rerturns all courses"
     getCourses: [Course]
     "Returns a course by id"
-    getCourse(id: ID!): Student
+    getCourse(id: ID!): Course
     "Rerturns all students"
     getStudents: [Student]
     "Returns a student by id"
